@@ -1,2 +1,19 @@
+input[type=radio] {
+    display: none;
+}
 
+img {
+    border-radius: 50%;
+}
 
+input[type=radio]:checked + img {
+    border: 5px solid pink;
+}
+
+label:hover {
+cursor:pointer;
+}
+
+.hidden {
+    display: none;
+}
