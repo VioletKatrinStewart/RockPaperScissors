@@ -7,7 +7,7 @@ img {
 }
 
 input[type=radio]:checked + img {
-    border: 5px solid pink;
+    border: 5px solid rgb(243, 243, 145);
 }
 
 label:hover {
@@ -16,4 +16,35 @@ cursor:pointer;
 
 .hidden {
     display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: palevioletred;
+    font-size: 70px;
+}
+
+span {
+    color: palevioletred
+
+}
+
+p { 
+background-color: pink;
+width:max-content;
+font-size: 40px;
+}
+
+* {
+font-family: 'Nanum Brush Script', cursive;
+}
+
+button {
+    font-size: 40px;
+    background-color: palegoldenrod;
 }
