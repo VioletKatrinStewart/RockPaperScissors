@@ -13,8 +13,29 @@
 </head>
 
 <body>
+    <h1>Let's play rock paper scissors!</h1>
+    <section>
+        <label>
+            <input type="radio" name="RPS" id="rock" value="rock">
+            <img src="./assets/rock.png" alt="picture of a rock">
+        </label>
 
+        <label>
+            <input type="radio" name="RPS" id="paper" value="paper">
+            <img src="./assets/paper.png" alt="picture of a piece of paper">
+        </label>
 
+        <label>
+            <input type="radio" name="RPS" id="scissors" value="scissors">
+            <img src="./assets/scissors.png" alt="picture of scissors">
+        </label>
+        <p id="error" class="hidden"> You need to make a selection first!
+        </p>
+        <button id="submit">PLAY</button>
+        <p id="result"></p>
+        <p>You have WON <span id="wins">0</span> times</p>
+        <p>You have LOST <span id="losses">0</span> times</p>
+    </section>
     <script type="module" src="./app.js"></script>
 </body>
 
