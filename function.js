@@ -1,6 +1,6 @@
 export function didUserWin(userThrow, computerThrow) {
 
-    console.log(computerThrow, userThrow);
+    //console.log(computerThrow, userThrow);
 
 
     if (userThrow === computerThrow) {
